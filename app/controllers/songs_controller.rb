@@ -16,6 +16,7 @@ class SongsController < ApplicationController
   end 
   
   def show 
+    # will need to display each song's genre and artist and link to respective genre and artist show pages 
   end 
   
   def index 
