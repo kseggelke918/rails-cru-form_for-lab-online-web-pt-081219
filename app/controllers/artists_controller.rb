@@ -22,4 +22,10 @@ class ArtistsController < ApplicationController
   def index 
   end 
   
+  private 
+  
+  def genre_params 
+    params.require(:artist).permit(:name, :bio)
+  end 
+  
 end
